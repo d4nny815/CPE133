@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/schoolfiles/School/cpe 133/exp5/8bit_Comparator/8bit_Comparator.srcs/sources_1/new/n_bit_comp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module n_bit_comp_unsigned
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/schoolfiles/School/cpe 133/exp5/8bit_Comparator/8bit_Comparator.srcs/sources_1/new/8_bit_comp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module eight_bit_comp
+INFO: [VRFC 10-311] analyzing module test_8b_comp

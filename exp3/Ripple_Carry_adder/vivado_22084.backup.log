@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Oct  6 04:40:10 2022
+# Process ID: 22084
+# Current directory: D:/schoolfiles/School/cpe 133/exp3/Ripple_Carry_adder
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent30548 D:\schoolfiles\School\cpe 133\exp3\Ripple_Carry_adder\Ripple_Carry_adder.xpr
+# Log file: D:/schoolfiles/School/cpe 133/exp3/Ripple_Carry_adder/vivado.log
+# Journal file: D:/schoolfiles/School/cpe 133/exp3/Ripple_Carry_adder\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/schoolfiles/School/cpe 133/exp3/Ripple_Carry_adder/Ripple_Carry_adder.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Oct  6 04:40:40 2022...

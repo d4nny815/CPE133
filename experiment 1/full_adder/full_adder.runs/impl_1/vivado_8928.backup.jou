@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sat Oct  1 01:11:47 2022
+# Process ID: 8928
+# Current directory: D:/schoolfiles/School/cpe 133/experiment 1/full_adder/full_adder.runs/impl_1
+# Command line: vivado.exe -log full_adder.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source full_adder.tcl -notrace
+# Log file: D:/schoolfiles/School/cpe 133/experiment 1/full_adder/full_adder.runs/impl_1/full_adder.vdi
+# Journal file: D:/schoolfiles/School/cpe 133/experiment 1/full_adder/full_adder.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source full_adder.tcl -notrace
