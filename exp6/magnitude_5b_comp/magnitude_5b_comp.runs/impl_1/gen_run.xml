@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1666168875">
+  <File Type="BITSTR-BMM" Name="mag_comp_5b_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="mag_comp_5b_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="mag_comp_5b_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="mag_comp_5b_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="mag_comp_5b.tcl"/>
+  <File Type="OPT-TIMING" Name="mag_comp_5b_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="mag_comp_5b_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="mag_comp_5b_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="mag_comp_5b_reports.tcl"/>
+  <File Type="OPT-DRC" Name="mag_comp_5b_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="mag_comp_5b.hwdef"/>
+  <File Type="PWROPT-DCP" Name="mag_comp_5b_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="mag_comp_5b_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="mag_comp_5b_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="mag_comp_5b_placed.dcp"/>
+  <File Type="PLACE-IO" Name="mag_comp_5b_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="mag_comp_5b_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="mag_comp_5b_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="mag_comp_5b_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="mag_comp_5b_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="mag_comp_5b_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="mag_comp_5b_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="mag_comp_5b_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="mag_comp_5b_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="mag_comp_5b.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="mag_comp_5b_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="mag_comp_5b_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="mag_comp_5b_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="mag_comp_5b.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="mag_comp_5b_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="mag_comp_5b_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="mag_comp_5b_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="mag_comp_5b_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="mag_comp_5b_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="mag_comp_5b_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="mag_comp_5b_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="mag_comp_5b.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="mag_comp_5b_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="mag_comp_5b_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="mag_comp_5b_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="mag_comp_5b_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="mag_comp_5b_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="mag_comp_5b_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="mag_comp_5b_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="mag_comp_5b_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="mag_comp_5b_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="mag_comp_5b_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="mag_comp_5b_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="mag_comp_5b_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="mag_comp_5b_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="mag_comp_5b_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="mag_comp_5b_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="mag_comp_5b_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="mag_comp_5b_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="mag_comp_5b_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="mag_comp_5b_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="mag_comp_5b_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="mag_comp_5b_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="mag_comp_5b.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="mag_comp_5b_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="mag_comp_5b.rbt"/>
+  <File Type="BITSTR-NKY" Name="mag_comp_5b.nky"/>
+  <File Type="PDI-FILE" Name="mag_comp_5b.pdi"/>
+  <File Type="RCFI_FILE" Name="mag_comp_5b.rcfi"/>
+  <File Type="CFI_FILE" Name="mag_comp_5b.cfi"/>
+  <File Type="RNPI_FILE" Name="mag_comp_5b.rnpi"/>
+  <File Type="NPI_FILE" Name="mag_comp_5b.npi"/>
+  <File Type="RBD_FILE" Name="mag_comp_5b.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="mag_comp_5b.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="mag_comp_5b.sysdef"/>
+  <File Type="BG-BGN" Name="mag_comp_5b.bgn"/>
+  <File Type="BG-DRC" Name="mag_comp_5b.drc"/>
+  <File Type="RDI-RDI" Name="mag_comp_5b.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/exp6/mux_2t1_nb_v1_04.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../mux_2t1_nb_v1_04.v"/>
+        <Attr Name="ImportTime" Val="1666046458"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/n_bit_comp.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../exp5/8bit_Comparator/8bit_Comparator.srcs/sources_1/new/n_bit_comp.v"/>
+        <Attr Name="ImportTime" Val="1665383566"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Downloads/rc_sign_changer_v1_01.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/Danny/Downloads/rc_sign_changer_v1_01.v"/>
+        <Attr Name="ImportTime" Val="1666167412"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/exp6/univ_sseg_v1_05.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../univ_sseg_v1_05.v"/>
+        <Attr Name="ImportTime" Val="1666041070"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/mag_comp_5b.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="mag_comp_5b"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/cpe 133/Basys3_Master_v1_03.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Basys3_Master_v1_03.xdc"/>
+        <Attr Name="ImportTime" Val="1664246456"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

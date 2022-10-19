@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Oct 19 01:41:16 2022
+# Process ID: 9296
+# Current directory: D:/schoolfiles/School/cpe 133/exp6/magnitude_5b_comp/magnitude_5b_comp.runs/synth_1
+# Command line: vivado.exe -log mag_comp_5b.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mag_comp_5b.tcl
+# Log file: D:/schoolfiles/School/cpe 133/exp6/magnitude_5b_comp/magnitude_5b_comp.runs/synth_1/mag_comp_5b.vds
+# Journal file: D:/schoolfiles/School/cpe 133/exp6/magnitude_5b_comp/magnitude_5b_comp.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source mag_comp_5b.tcl -notrace

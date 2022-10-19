@@ -1,0 +1,247 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Oct 19 01:41:16 2022
+# Process ID: 9296
+# Current directory: D:/schoolfiles/School/cpe 133/exp6/magnitude_5b_comp/magnitude_5b_comp.runs/synth_1
+# Command line: vivado.exe -log mag_comp_5b.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mag_comp_5b.tcl
+# Log file: D:/schoolfiles/School/cpe 133/exp6/magnitude_5b_comp/magnitude_5b_comp.runs/synth_1/mag_comp_5b.vds
+# Journal file: D:/schoolfiles/School/cpe 133/exp6/magnitude_5b_comp/magnitude_5b_comp.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source mag_comp_5b.tcl -notrace
+Command: synth_design -top mag_comp_5b -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 6172
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1036.633 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'mag_comp_5b' [D:/schoolfiles/School/cpe 133/exp6/magnitude_5b_comp/magnitude_5b_comp.srcs/sources_1/new/mag_comp_5b.v:23]
+INFO: [Synth 8-6157] synthesizing module 'nb_twos_comp' [D:/schoolfiles/School/cpe 133/exp6/magnitude_5b_comp/magnitude_5b_comp.srcs/sources_1/imports/Downloads/rc_sign_changer_v1_01.v:30]
+	Parameter n bound to: 5 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'nb_twos_comp' (1#1) [D:/schoolfiles/School/cpe 133/exp6/magnitude_5b_comp/magnitude_5b_comp.srcs/sources_1/imports/Downloads/rc_sign_changer_v1_01.v:30]
+INFO: [Synth 8-6157] synthesizing module 'mux_2t1_nb' [D:/schoolfiles/School/cpe 133/exp6/magnitude_5b_comp/magnitude_5b_comp.srcs/sources_1/imports/exp6/mux_2t1_nb_v1_04.v:36]
+	Parameter n bound to: 5 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'mux_2t1_nb' (2#1) [D:/schoolfiles/School/cpe 133/exp6/magnitude_5b_comp/magnitude_5b_comp.srcs/sources_1/imports/exp6/mux_2t1_nb_v1_04.v:36]
+INFO: [Synth 8-6157] synthesizing module 'n_bit_comp_unsigned' [D:/schoolfiles/School/cpe 133/exp6/magnitude_5b_comp/magnitude_5b_comp.srcs/sources_1/imports/new/n_bit_comp.v:23]
+	Parameter n bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'n_bit_comp_unsigned' (3#1) [D:/schoolfiles/School/cpe 133/exp6/magnitude_5b_comp/magnitude_5b_comp.srcs/sources_1/imports/new/n_bit_comp.v:23]
+WARNING: [Synth 8-689] width (5) of port connection 'a' does not match port width (4) of module 'n_bit_comp_unsigned' [D:/schoolfiles/School/cpe 133/exp6/magnitude_5b_comp/magnitude_5b_comp.srcs/sources_1/new/mag_comp_5b.v:60]
+WARNING: [Synth 8-689] width (5) of port connection 'b' does not match port width (4) of module 'n_bit_comp_unsigned' [D:/schoolfiles/School/cpe 133/exp6/magnitude_5b_comp/magnitude_5b_comp.srcs/sources_1/new/mag_comp_5b.v:60]
+INFO: [Synth 8-6157] synthesizing module 'univ_sseg' [D:/schoolfiles/School/cpe 133/exp6/magnitude_5b_comp/magnitude_5b_comp.srcs/sources_1/imports/exp6/univ_sseg_v1_05.v:82]
+INFO: [Synth 8-6157] synthesizing module 'cnt_convert_14b' [D:/schoolfiles/School/cpe 133/exp6/magnitude_5b_comp/magnitude_5b_comp.srcs/sources_1/imports/exp6/univ_sseg_v1_05.v:275]
+INFO: [Synth 8-226] default block is never used [D:/schoolfiles/School/cpe 133/exp6/magnitude_5b_comp/magnitude_5b_comp.srcs/sources_1/imports/exp6/univ_sseg_v1_05.v:294]
+INFO: [Synth 8-6155] done synthesizing module 'cnt_convert_14b' (4#1) [D:/schoolfiles/School/cpe 133/exp6/magnitude_5b_comp/magnitude_5b_comp.srcs/sources_1/imports/exp6/univ_sseg_v1_05.v:275]
+INFO: [Synth 8-6157] synthesizing module 'cnt_convert_7b' [D:/schoolfiles/School/cpe 133/exp6/magnitude_5b_comp/magnitude_5b_comp.srcs/sources_1/imports/exp6/univ_sseg_v1_05.v:373]
+INFO: [Synth 8-6155] done synthesizing module 'cnt_convert_7b' (5#1) [D:/schoolfiles/School/cpe 133/exp6/magnitude_5b_comp/magnitude_5b_comp.srcs/sources_1/imports/exp6/univ_sseg_v1_05.v:373]
+INFO: [Synth 8-6157] synthesizing module 'clk_divder' [D:/schoolfiles/School/cpe 133/exp6/magnitude_5b_comp/magnitude_5b_comp.srcs/sources_1/imports/exp6/univ_sseg_v1_05.v:258]
+	Parameter n bound to: 13 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'clk_divder' (6#1) [D:/schoolfiles/School/cpe 133/exp6/magnitude_5b_comp/magnitude_5b_comp.srcs/sources_1/imports/exp6/univ_sseg_v1_05.v:258]
+INFO: [Synth 8-226] default block is never used [D:/schoolfiles/School/cpe 133/exp6/magnitude_5b_comp/magnitude_5b_comp.srcs/sources_1/imports/exp6/univ_sseg_v1_05.v:129]
+INFO: [Synth 8-226] default block is never used [D:/schoolfiles/School/cpe 133/exp6/magnitude_5b_comp/magnitude_5b_comp.srcs/sources_1/imports/exp6/univ_sseg_v1_05.v:145]
+INFO: [Synth 8-226] default block is never used [D:/schoolfiles/School/cpe 133/exp6/magnitude_5b_comp/magnitude_5b_comp.srcs/sources_1/imports/exp6/univ_sseg_v1_05.v:157]
+INFO: [Synth 8-226] default block is never used [D:/schoolfiles/School/cpe 133/exp6/magnitude_5b_comp/magnitude_5b_comp.srcs/sources_1/imports/exp6/univ_sseg_v1_05.v:169]
+INFO: [Synth 8-226] default block is never used [D:/schoolfiles/School/cpe 133/exp6/magnitude_5b_comp/magnitude_5b_comp.srcs/sources_1/imports/exp6/univ_sseg_v1_05.v:181]
+INFO: [Synth 8-226] default block is never used [D:/schoolfiles/School/cpe 133/exp6/magnitude_5b_comp/magnitude_5b_comp.srcs/sources_1/imports/exp6/univ_sseg_v1_05.v:193]
+INFO: [Synth 8-6155] done synthesizing module 'univ_sseg' (7#1) [D:/schoolfiles/School/cpe 133/exp6/magnitude_5b_comp/magnitude_5b_comp.srcs/sources_1/imports/exp6/univ_sseg_v1_05.v:82]
+INFO: [Synth 8-6155] done synthesizing module 'mag_comp_5b' (8#1) [D:/schoolfiles/School/cpe 133/exp6/magnitude_5b_comp/magnitude_5b_comp.srcs/sources_1/new/mag_comp_5b.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1038.145 ; gain = 1.512
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1038.145 ; gain = 1.512
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1038.145 ; gain = 1.512
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1038.145 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/schoolfiles/School/cpe 133/exp6/magnitude_5b_comp/magnitude_5b_comp.srcs/constrs_1/imports/cpe 133/Basys3_Master_v1_03.xdc]
+Finished Parsing XDC File [D:/schoolfiles/School/cpe 133/exp6/magnitude_5b_comp/magnitude_5b_comp.srcs/constrs_1/imports/cpe 133/Basys3_Master_v1_03.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/schoolfiles/School/cpe 133/exp6/magnitude_5b_comp/magnitude_5b_comp.srcs/constrs_1/imports/cpe 133/Basys3_Master_v1_03.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/mag_comp_5b_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/mag_comp_5b_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1153.316 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1153.316 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1153.316 ; gain = 116.684
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1153.316 ; gain = 116.684
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1153.316 ; gain = 116.684
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1153.316 ; gain = 116.684
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   14 Bit       Adders := 18    
+	   2 Input    4 Bit       Adders := 14    
+	   2 Input    2 Bit       Adders := 1     
++---Registers : 
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   4 Input   14 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 2     
+	   2 Input    5 Bit        Muxes := 2     
+	   8 Input    4 Bit        Muxes := 1     
+	   4 Input    4 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1153.316 ; gain = 116.684
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1153.316 ; gain = 116.684
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1153.316 ; gain = 116.684
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1155.055 ; gain = 118.422
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1160.867 ; gain = 124.234
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1160.867 ; gain = 124.234
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1160.867 ; gain = 124.234
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1160.867 ; gain = 124.234
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1160.867 ; gain = 124.234
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1160.867 ; gain = 124.234
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     4|
+|3     |LUT1   |     2|
+|4     |LUT2   |     6|
+|5     |LUT4   |     4|
+|6     |LUT5   |    13|
+|7     |LUT6   |     4|
+|8     |FDRE   |    16|
+|9     |IBUF   |    11|
+|10    |OBUF   |    12|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1160.867 ; gain = 124.234
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:08 ; elapsed = 00:00:12 . Memory (MB): peak = 1160.867 ; gain = 9.062
+Synthesis Optimization Complete : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1160.867 ; gain = 124.234
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1171.898 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1175.570 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+38 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1175.570 ; gain = 138.938
+INFO: [Common 17-1381] The checkpoint 'D:/schoolfiles/School/cpe 133/exp6/magnitude_5b_comp/magnitude_5b_comp.runs/synth_1/mag_comp_5b.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file mag_comp_5b_utilization_synth.rpt -pb mag_comp_5b_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Oct 19 01:41:36 2022...
