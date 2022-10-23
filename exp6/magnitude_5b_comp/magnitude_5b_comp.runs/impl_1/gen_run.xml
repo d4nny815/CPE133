@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1666168875">
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1666510432">
   <File Type="BITSTR-BMM" Name="mag_comp_5b_bd.bmm"/>
   <File Type="OPT-METHODOLOGY-DRC" Name="mag_comp_5b_methodology_drc_opted.rpt"/>
   <File Type="INIT-TIMING" Name="mag_comp_5b_timing_summary_init.rpt"/>
@@ -77,6 +77,13 @@
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/comp5b.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PSRCDIR/sources_1/imports/exp6/mux_2t1_nb_v1_04.v">
       <FileInfo>
         <Attr Name="ImportPath" Val="$PPRDIR/../mux_2t1_nb_v1_04.v"/>

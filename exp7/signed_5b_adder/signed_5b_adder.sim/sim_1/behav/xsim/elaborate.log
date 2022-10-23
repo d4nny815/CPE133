@@ -1,0 +1,21 @@
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto ce123653faa64f72b94bf9bd5f91116d --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_signed_adder_behav xil_defaultlib.test_signed_adder xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'cin' [D:/schoolfiles/School/cpe 133/exp7/signed_5b_adder/signed_5b_adder.srcs/sources_1/new/signed_5b_adder.v:49]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.nb_twos_comp(n=5)
+Compiling module xil_defaultlib.mux_2t1_nb(n=5)
+Compiling module xil_defaultlib.rca_nb(n=5)
+Compiling module xil_defaultlib.nb_twos_comp(n=14)
+Compiling module xil_defaultlib.mux_2t1_nb(n=14)
+Compiling module xil_defaultlib.rc_valid_chk
+Compiling module xil_defaultlib.signed_5b_adder
+Compiling module xil_defaultlib.test_signed_adder
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_signed_adder_behav

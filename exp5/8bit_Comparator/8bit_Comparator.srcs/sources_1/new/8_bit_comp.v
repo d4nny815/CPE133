@@ -25,13 +25,23 @@ module eight_bit_comp(a, b, eq, gt, lt);
     output reg eq, gt, lt;
     wire [5:0] k;
     
-    n_bit_comp_unsigned #(.n(4)) comp_4bit_1(
-    .a (a[7:4]), .b (b[7:4]), .eq (k[0]), .lt (k[1]), .gt (k[2])
-    );
     
-    n_bit_comp_unsigned #(.n(4)) comp_4bit_2(
-    .a (a[3:0]),.b (b[3:0]),.eq (k[3]),.lt (k[4]),.gt (k[5])
-    );
+    comp_nb #(.n(4)) comp_4bit_1 (
+        .a  (a[7:4]), 
+        .b  (b[7:4]), 
+        .eq (k[0]), 
+        .gt (k[1]), 
+        .lt (k[2])
+        );  
+
+
+    comp_nb #(.n(4)) comp_4bit_2 (
+        .a  (a[3:0]), 
+        .b  (b[3:0]), 
+        .eq (k[3]), 
+        .gt (k[4]), 
+        .lt (k[5])
+        );  
    
     always @(k)
     begin
@@ -56,41 +66,3 @@ module eight_bit_comp(a, b, eq, gt, lt);
     end
 endmodule
 
-module test_8b_comp ();
-    reg [7:0] a, b;
-    wire eq, lt, gt;
-    
-    eight_bit_comp comp_8b(
-    .a(a), .b(b), .eq(eq), .gt(gt), .lt(lt)
-    );
-
-    initial
-    begin
-        // Equal
-        a = 8'h08;
-        b = 8'h08;
-
-        //Less Than
-        #15
-        a = 8'h02;
-        b = 8'h0D;
-
-        //greater than
-        #15
-        a = 8'h0A;
-        b = 8'h09;
-
-        //less than
-        #15
-        a = 8'h49;
-        b = 8'h5A;
-
-        //greater than
-        #15
-        a = 8'hF8;
-        b = 8'hE8;
-        
-        #15
-        $finish;
-        end
-endmodule 

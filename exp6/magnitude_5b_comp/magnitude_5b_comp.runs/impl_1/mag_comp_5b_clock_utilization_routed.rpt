@@ -1,7 +1,7 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
-| Date         : Wed Oct 19 01:42:08 2022
+| Date         : Sun Oct 23 00:34:46 2022
 | Host         : Zeus running 64-bit major release  (build 9200)
 | Command      : report_clock_utilization -file mag_comp_5b_clock_utilization_routed.rpt
 | Design       : mag_comp_5b
@@ -69,7 +69,7 @@ Table of Contents
 +----------+-----------------+------------+------------------+--------------+-------------+-----------------+--------------+-------+--------------------------------------+-----------------------------+
 | Local Id | Driver Type/Pin | Constraint | Site/BEL         | Clock Region | Clock Loads | Non-Clock Loads | Clock Period | Clock | Driver Pin                           | Net                         |
 +----------+-----------------+------------+------------------+--------------+-------------+-----------------+--------------+-------+--------------------------------------+-----------------------------||
-| 0        | FDRE/Q          | None       | SLICE_X64Y27/BFF | X1Y0         |           2 |               1 |              |       | my_univ_sseg/CLK_DIV/count_reg[13]/Q | my_univ_sseg/CLK_DIV/out[0] - Static -
+| 0        | FDRE/Q          | None       | SLICE_X64Y23/BFF | X1Y0         |           2 |               1 |              |       | my_univ_sseg/CLK_DIV/count_reg[13]/Q | my_univ_sseg/CLK_DIV/out[0] - Static -
 +----------+-----------------+------------+------------------+--------------+-------------+-----------------+--------------+-------+--------------------------------------+-----------------------------||
 * Local Clocks in this context represents only clocks driven by non-global buffers
 ** Clock Loads column represents the clock pin loads (pin count)

@@ -21,59 +21,32 @@
 
 
 module mag_comp_5b(
-    input [4:0] a,
-    input [4:0] b,
-    input clk,
-    output [7:0] seg,
-    output [3:0] an
-    );
+  input [4:0] a,
+  input [4:0] b,
+  input clk,
+  output [7:0] seg,
+  output [3:0] an
+  );
+  
+  wire valid, sign;
+  wire [13:0] ctn1;
     
-    wire sign;
-    wire valid;
-    wire [4:0] a_min;
-    wire [4:0] b_min;
-    wire [4:0] mux_a;
-    wire [4:0] mux_b;
-
-  nb_twos_comp #(.n(5)) my_sign_changer_a (
-      .a     (a), 
-      .a_min (a_min)  
-      );  
-  nb_twos_comp #(.n(5)) my_sign_changer_b (
-      .a     (b), 
-      .a_min (b_min)  
-      );  
-        
-  mux_2t1_nb  #(.n(5)) my_2t1_mux_a  (
-       .SEL   (a[4]), 
-       .D0    (a), 
-       .D1    (a_min), 
-       .D_OUT (mux_a) );
-         
-  mux_2t1_nb  #(.n(5)) my_2t1_mux_b  (
-       .SEL   (b[4]), 
-       .D0    (b), 
-       .D1    (b_min), 
-       .D_OUT (mux_b) );  
-    
-    n_bit_comp_unsigned #(.n(4)) comp_5b
-    (.a(mux_a), .b(mux_b), .eq(valid), .lt(), .gt()
-    );
-    
-    assign sign = a[4] & b[4];
+  comp5b my_comp5(
+  .a(a), .b(b), .valid(valid), .sign(sign), .ctn1(ctn1)
+  );
     
   univ_sseg my_univ_sseg (
-     .cnt1    ({10'b00_0000_0000, mux_b[3:0]}), 
+     .cnt1    (ctn1), 
      .cnt2    (), 
      .valid   (valid), 
-     .dp_en   (0), 
+     .dp_en   (1'b0), 
      .dp_sel  (), 
-     .mod_sel (00), 
+     .mod_sel (2'b00), 
      .sign    (sign), 
      .clk     (clk), 
      .ssegs   (seg), 
      .disp_en (an)
      );
-    
+      
 endmodule
 

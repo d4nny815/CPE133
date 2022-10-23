@@ -87,6 +87,7 @@ set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 read_verilog -library xil_defaultlib {
+  {D:/schoolfiles/School/cpe 133/exp6/magnitude_5b_comp/magnitude_5b_comp.srcs/sources_1/new/comp5b.v}
   {D:/schoolfiles/School/cpe 133/exp6/magnitude_5b_comp/magnitude_5b_comp.srcs/sources_1/imports/exp6/mux_2t1_nb_v1_04.v}
   {D:/schoolfiles/School/cpe 133/exp6/magnitude_5b_comp/magnitude_5b_comp.srcs/sources_1/imports/new/n_bit_comp.v}
   {D:/schoolfiles/School/cpe 133/exp6/magnitude_5b_comp/magnitude_5b_comp.srcs/sources_1/imports/Downloads/rc_sign_changer_v1_01.v}

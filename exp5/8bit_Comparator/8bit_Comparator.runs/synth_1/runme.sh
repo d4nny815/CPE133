@@ -40,4 +40,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log test_8b_comp.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source test_8b_comp.tcl
+EAStep vivado -log eight_bit_comp.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source eight_bit_comp.tcl
