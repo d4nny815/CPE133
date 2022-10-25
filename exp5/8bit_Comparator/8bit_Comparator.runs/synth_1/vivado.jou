@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sat Oct 22 22:39:55 2022
+# Process ID: 19600
+# Current directory: D:/schoolfiles/School/cpe 133/exp5/8bit_Comparator/8bit_Comparator.runs/synth_1
+# Command line: vivado.exe -log eight_bit_comp.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source eight_bit_comp.tcl
+# Log file: D:/schoolfiles/School/cpe 133/exp5/8bit_Comparator/8bit_Comparator.runs/synth_1/eight_bit_comp.vds
+# Journal file: D:/schoolfiles/School/cpe 133/exp5/8bit_Comparator/8bit_Comparator.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source eight_bit_comp.tcl -notrace

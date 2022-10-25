@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1666672697">
+  <File Type="BITSTR-BMM" Name="cntr_up_down_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="cntr_up_down_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="cntr_up_down_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="cntr_up_down_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="cntr_up_down.tcl"/>
+  <File Type="OPT-TIMING" Name="cntr_up_down_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="cntr_up_down_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="cntr_up_down_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="cntr_up_down_reports.tcl"/>
+  <File Type="OPT-DRC" Name="cntr_up_down_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="cntr_up_down.hwdef"/>
+  <File Type="PWROPT-DCP" Name="cntr_up_down_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="cntr_up_down_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="cntr_up_down_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="cntr_up_down_placed.dcp"/>
+  <File Type="PLACE-IO" Name="cntr_up_down_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="cntr_up_down_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="cntr_up_down_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="cntr_up_down_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="cntr_up_down_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="cntr_up_down_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="cntr_up_down_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="cntr_up_down_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="cntr_up_down_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="cntr_up_down.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="cntr_up_down_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="cntr_up_down_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="cntr_up_down_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="cntr_up_down.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="cntr_up_down_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="cntr_up_down_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="cntr_up_down_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="cntr_up_down_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="cntr_up_down_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="cntr_up_down_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="cntr_up_down_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="cntr_up_down.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="cntr_up_down_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="cntr_up_down_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="cntr_up_down_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="cntr_up_down_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="cntr_up_down_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="cntr_up_down_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="cntr_up_down_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="cntr_up_down_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="cntr_up_down_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="cntr_up_down_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="cntr_up_down_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="cntr_up_down_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="cntr_up_down_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="cntr_up_down_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="cntr_up_down_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="cntr_up_down_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="cntr_up_down_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="cntr_up_down_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="cntr_up_down_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="cntr_up_down_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="cntr_up_down_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="cntr_up_down.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="cntr_up_down_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="cntr_up_down.rbt"/>
+  <File Type="BITSTR-NKY" Name="cntr_up_down.nky"/>
+  <File Type="PDI-FILE" Name="cntr_up_down.pdi"/>
+  <File Type="RCFI_FILE" Name="cntr_up_down.rcfi"/>
+  <File Type="CFI_FILE" Name="cntr_up_down.cfi"/>
+  <File Type="RNPI_FILE" Name="cntr_up_down.rnpi"/>
+  <File Type="NPI_FILE" Name="cntr_up_down.npi"/>
+  <File Type="RBD_FILE" Name="cntr_up_down.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="cntr_up_down.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="cntr_up_down.sysdef"/>
+  <File Type="BG-BGN" Name="cntr_up_down.bgn"/>
+  <File Type="BG-DRC" Name="cntr_up_down.drc"/>
+  <File Type="RDI-RDI" Name="cntr_up_down.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/modules/clk_2n_div_test_v1_01.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../modules/clk_2n_div_test_v1_01.v"/>
+        <Attr Name="ImportTime" Val="1666656344"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/input_decoder.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/led_lut.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/modules/mux_2t1_nb_v1_04.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../modules/mux_2t1_nb_v1_04.v"/>
+        <Attr Name="ImportTime" Val="1666341940"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/output_decoder.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/modules/rca_nb_v1_04.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../modules/rca_nb_v1_04.v"/>
+        <Attr Name="ImportTime" Val="1666318114"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/modules/reg_nb_v1_03.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../modules/reg_nb_v1_03.v"/>
+        <Attr Name="ImportTime" Val="1666657344"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/state_reg.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/modules/univ_sseg_v1_05.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../modules/univ_sseg_v1_05.v"/>
+        <Attr Name="ImportTime" Val="1666341420"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/cntr_up_down.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="cntr_up_down"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/cpe 133/Basys3_Master_v1_03.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Basys3_Master_v1_03.xdc"/>
+        <Attr Name="ImportTime" Val="1664246456"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
