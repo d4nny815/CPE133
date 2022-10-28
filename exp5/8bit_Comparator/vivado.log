@@ -1,0 +1,70 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Oct 26 14:08:31 2022
+# Process ID: 8800
+# Current directory: D:/schoolfiles/School/cpe 133/exp5/8bit_Comparator
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9968 D:\schoolfiles\School\cpe 133\exp5\8bit_Comparator\8bit_Comparator.xpr
+# Log file: D:/schoolfiles/School/cpe 133/exp5/8bit_Comparator/vivado.log
+# Journal file: D:/schoolfiles/School/cpe 133/exp5/8bit_Comparator\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/schoolfiles/School/cpe 133/exp5/8bit_Comparator/8bit_Comparator.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:09 . Memory (MB): peak = 1032.496 ; gain = 0.000
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/schoolfiles/School/cpe 133/exp5/8bit_Comparator/8bit_Comparator.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_8b_comp' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/schoolfiles/School/cpe 133/exp5/8bit_Comparator/8bit_Comparator.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_8b_comp_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/schoolfiles/School/cpe 133/exp5/8bit_Comparator/8bit_Comparator.sim/sim_1/behav/xsim'
+"xelab -wto fbeb10c0488b45f89d0584e382823470 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_8b_comp_behav xil_defaultlib.test_8b_comp xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto fbeb10c0488b45f89d0584e382823470 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_8b_comp_behav xil_defaultlib.test_8b_comp xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/schoolfiles/School/cpe 133/exp5/8bit_Comparator/8bit_Comparator.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_8b_comp_behav -key {Behavioral:sim_1:Functional:test_8b_comp} -tclbatch {test_8b_comp.tcl} -view {{D:/schoolfiles/School/cpe 133/exp5/8bit_Comparator/test_8b_comp_behav.wcfg}} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+open_wave_config {D:/schoolfiles/School/cpe 133/exp5/8bit_Comparator/test_8b_comp_behav.wcfg}
+source test_8b_comp.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 75 ns : File "D:/schoolfiles/School/cpe 133/exp5/8bit_Comparator/8bit_Comparator.srcs/sim_1/new/test_8b_comp.v" Line 58
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_8b_comp_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:14 ; elapsed = 00:00:10 . Memory (MB): peak = 1078.664 ; gain = 26.328
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Oct 26 15:21:58 2022...

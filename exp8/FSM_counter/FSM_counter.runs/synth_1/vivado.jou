@@ -2,11 +2,11 @@
 # Vivado v2020.1 (64-bit)
 # SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
 # IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
-# Start of session at: Mon Oct 24 21:38:19 2022
-# Process ID: 12280
+# Start of session at: Wed Oct 26 14:21:03 2022
+# Process ID: 8620
 # Current directory: D:/schoolfiles/School/cpe 133/exp8/FSM_counter/FSM_counter.runs/synth_1
-# Command line: vivado.exe -log cntr_up_down.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source cntr_up_down.tcl
-# Log file: D:/schoolfiles/School/cpe 133/exp8/FSM_counter/FSM_counter.runs/synth_1/cntr_up_down.vds
+# Command line: vivado.exe -log FSM.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source FSM.tcl
+# Log file: D:/schoolfiles/School/cpe 133/exp8/FSM_counter/FSM_counter.runs/synth_1/FSM.vds
 # Journal file: D:/schoolfiles/School/cpe 133/exp8/FSM_counter/FSM_counter.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
-source cntr_up_down.tcl -notrace
+source FSM.tcl -notrace

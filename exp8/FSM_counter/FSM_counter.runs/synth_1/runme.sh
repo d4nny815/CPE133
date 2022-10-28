@@ -40,4 +40,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log cntr_up_down.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source cntr_up_down.tcl
+EAStep vivado -log FSM.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source FSM.tcl

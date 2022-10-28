@@ -20,7 +20,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module cntr_up_down(
+module FSM(
     input btnL,
     input clk,
     output [7:0] seg,
@@ -30,11 +30,11 @@ module cntr_up_down(
     
     wire [3:0] val, q;
     
-    input_dcdr my_input(
+    ns_dcdr my_input(
     .in(q), .btn(btnL), .clk(clk), .val(val)
     );
     
-    state_reg my_state(
+    state_reg my_state_reg(
     .clk(clk), .val(q), .sum(val)
     );
     
