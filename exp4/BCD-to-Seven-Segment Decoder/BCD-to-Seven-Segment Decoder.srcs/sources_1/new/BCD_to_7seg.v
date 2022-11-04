@@ -1,15 +1,15 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
-// Engineer: 
+// Engineer: Danny Gutierrez, Garrett Jones
 // 
 // Create Date: 10/06/2022 04:35:40 AM
-// Design Name: 
+// Design Name: Experiment 4:BCD to Seven Segment Decoder
 // Module Name: BCD_to_7seg
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
-// Description: 
+// Description: 4 bit input is a BCD number, the output is on the 7 segment display, if the value exceed decimal number range it turns off the display
 // 
 // Dependencies: 
 // 

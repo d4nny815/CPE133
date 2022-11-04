@@ -1,15 +1,15 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
-// Engineer: 
+// Engineer: Danny Gutierrez, Garrett Jones
 // 
 // Create Date: 10/05/2022 02:58:12 PM
-// Design Name: 
+// Design Name: Experiment 3: 5-Bit Ripple Carry Adder (RCA)
 // Module Name: Ripple Carry Adder
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
-// Description: Add two 5-bit inputs and output a 5-bit sum and Carry-out
+// Description: Add to 2 five-bit inputs and output a five-bit value(sum) and a Carry-out
 // 
 // Dependencies: 
 // 

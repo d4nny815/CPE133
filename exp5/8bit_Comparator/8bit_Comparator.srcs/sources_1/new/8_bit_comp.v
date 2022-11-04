@@ -1,15 +1,15 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
-// Engineer: 
+// Engineer: Danny Gutierrez, Garrett Jones
 // 
 // Create Date: 10/09/2022 06:18:20 PM
-// Design Name: 
+// Design Name: Experiment 5:8-Bit Comparator with 4-Bit Comparator Modules
 // Module Name: n_bit_comp
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
-// Description: 
+// Description: Design an 8-bit comparator using two 4-bit comparator modules. The inputs to 8-bit comparator are both 8-bit unsigned numbers. Uses a procedural block for the "logic" portion of your design
 // 
 // Dependencies: 
 // 

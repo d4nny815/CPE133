@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
-// Engineer: 
+// Engineer: Danny Gutierrez, Garrett Jones
 // 
 // Create Date: 09/26/2022 02:58:12 PM
 // Design Name: 
@@ -9,7 +9,7 @@
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
-// Description: Takes 2 1-bit inputs and outputs a sum and carry-out
+// Description: Sets up modules for RCA
 // 
 // Dependencies: 
 // 

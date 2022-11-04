@@ -1,15 +1,15 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
-// Engineer: 
+// Engineer: Danny Gutierrez, Garrett Jones
 // 
 // Create Date: 10/24/2022 05:21:30 PM
-// Design Name: 
+// Design Name: Experiment 8: Basic FSM Design: Multi Output 4-Bit Up/Down Counter
 // Module Name: cntr_up_down
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
-// Description: 
+// Description: 4-bit up/down counter, the counter is synchronous. The counter counts up when the single button input is pressed; otherwise the counter counts down with the button is not pressed. The counter is circular.
 // 
 // Dependencies: 
 // 

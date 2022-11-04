@@ -1,15 +1,15 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
-// Engineer: 
+// Engineer: Danny Gutierrez, Garrett Jones
 // 
 // Create Date: 09/26/2022 03:25:28 PM
-// Design Name: 
+// Design Name: Experiment 1: Part B: Full Adder
 // Module Name: full_adder
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
-// Description: 
+// Description: Takes 2 1-bit and a carry-in inputs and outputs a sum and carry-out
 // 
 // Dependencies: 
 // 

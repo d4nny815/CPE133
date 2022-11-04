@@ -9,7 +9,8 @@
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
-// Description: 
+// Description: takes cares of the arithmetic of adding and subtracting 5bit signed values. Outputs 14 bit value to use for the sseg, sign value for the value, and wether the number is valid.
+
 // 
 // Dependencies: 
 // 
@@ -68,11 +69,9 @@ module signed_5b_adder(
          .a_sb   (a[4]), 
          .b_sb   (b_mux[4]), 
          .sum_sb (sum[4]), 
-         .valid  (valid) );
-         
+         .valid  (valid) );      
          
     assign sign = sum[4];     
-
 endmodule
 
 

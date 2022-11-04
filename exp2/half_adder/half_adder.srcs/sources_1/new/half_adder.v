@@ -1,15 +1,15 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
-// Engineer: 
+// Engineer: Danny Gutierrez, Garrett Jones
 // 
 // Create Date: 09/28/2022 03:46:57 PM
-// Design Name: 
+// Design Name: Experiment 2: Part A: Half Adder
 // Module Name: half_adder
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
-// Description: 
+// Description: Takes 2 1-bit inputs and outputs a sum and carry-out in both sop and pos forms
 // 
 // Dependencies: 
 // 

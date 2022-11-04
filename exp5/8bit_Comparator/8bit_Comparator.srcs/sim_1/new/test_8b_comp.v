@@ -9,7 +9,7 @@
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
-// Description: 
+// Description: testbench for 8 bit comparator
 // 
 // Dependencies: 
 // 

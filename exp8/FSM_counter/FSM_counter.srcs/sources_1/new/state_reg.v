@@ -40,8 +40,5 @@ module state_reg(
         .clockin   (clk), 
         .fclk_only (0),          
         .clockout  (slow_clk)  
-        );
-        
-        
-        
+        );     
 endmodule
