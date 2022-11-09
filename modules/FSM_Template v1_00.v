@@ -27,13 +27,14 @@ module fsm_template(reset_n, x_in, clk, mealy, moore);
     //- next state & present state variables
     reg [1:0] NS, PS; 
     //- bit-level state representations
-    parameter [1:0] st_A=2'b00, st_B=2'b01, st_C=2'b11; 
+    parameter [2:0] st_0=3'b000, st_1=3'b001, st_2=3'b010, st_3=3'b011,
+                    st_4=3'b100, st_5=3'b101, st_6=3'b110; 
     
 
     //- model the state registers
     always @ (negedge reset_n, posedge clk)
        if (reset_n == 0) 
-          PS <= st_A; 
+          PS <= st_0; 
        else
           PS <= NS; 
     
@@ -43,9 +44,9 @@ module fsm_template(reset_n, x_in, clk, mealy, moore);
     begin
        mealy = 0; moore = 0; // assign all outputs
        case(PS)
-          st_A:
+          st_0:
           begin
-             moore = 1;        
+             moore = 0;        
              if (x_in == 1)
              begin
                 mealy = 0;   

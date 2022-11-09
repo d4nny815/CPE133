@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Nov  9 11:58:46 2022
+# Process ID: 30840
+# Current directory: D:/schoolfiles/School/cpe 133/exp12/fib_seq_gen/fib_seq_gen.runs/synth_1
+# Command line: vivado.exe -log test.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source test.tcl
+# Log file: D:/schoolfiles/School/cpe 133/exp12/fib_seq_gen/fib_seq_gen.runs/synth_1/test.vds
+# Journal file: D:/schoolfiles/School/cpe 133/exp12/fib_seq_gen/fib_seq_gen.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source test.tcl -notrace

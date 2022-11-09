@@ -1,0 +1,303 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Tue Nov  8 12:47:01 2022
+# Process ID: 15300
+# Current directory: D:/schoolfiles/School/cpe 133/exp11/seq_det_fsm
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent24432 D:\schoolfiles\School\cpe 133\exp11\seq_det_fsm\seq_det_fsm.xpr
+# Log file: D:/schoolfiles/School/cpe 133/exp11/seq_det_fsm/vivado.log
+# Journal file: D:/schoolfiles/School/cpe 133/exp11/seq_det_fsm\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/schoolfiles/School/cpe 133/exp11/seq_det_fsm/seq_det_fsm.xpr}
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+close_project
+create_project fibonacci_seq_gen {D:/schoolfiles/School/cpe 133/exp12/fibonacci_seq_gen} -part xc7a35tcpg236-1
+file mkdir D:/schoolfiles/School/cpe 133/exp12/fibonacci_seq_gen/fibonacci_seq_gen.srcs/sources_1/new
+file mkdir D:/schoolfiles/School/cpe 133/exp12/fibonacci_seq_gen/fibonacci_seq_gen.srcs/sources_1/new
+file mkdir D:/schoolfiles/School/cpe 133/exp12/fibonacci_seq_gen/fibonacci_seq_gen.srcs/sources_1/new
+file mkdir {D:/schoolfiles/School/cpe 133/exp12/fibonacci_seq_gen/fibonacci_seq_gen.srcs/sources_1/new}
+close [ open {D:/schoolfiles/School/cpe 133/exp12/fibonacci_seq_gen/fibonacci_seq_gen.srcs/sources_1/new/main.v} w ]
+add_files {{D:/schoolfiles/School/cpe 133/exp12/fibonacci_seq_gen/fibonacci_seq_gen.srcs/sources_1/new/main.v}}
+update_compile_order -fileset sources_1
+import_files -norecurse {{D:/schoolfiles/School/cpe 133/modules/cntr_udclr_nb_v1_05.v} {D:/schoolfiles/School/cpe 133/modules/FSM_Template v1_00.v} {D:/schoolfiles/School/cpe 133/modules/univ_sseg_v1_05.v}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close [ open {D:/schoolfiles/School/cpe 133/exp12/fibonacci_seq_gen/fibonacci_seq_gen.srcs/sources_1/new/fib_seq.v} w ]
+add_files {{D:/schoolfiles/School/cpe 133/exp12/fibonacci_seq_gen/fibonacci_seq_gen.srcs/sources_1/new/fib_seq.v}}
+update_compile_order -fileset sources_1
+import_files -norecurse {{D:/schoolfiles/School/cpe 133/modules/reg_nb_v1_03.v} {D:/schoolfiles/School/cpe 133/modules/comp_nb_v1_02.v} {D:/schoolfiles/School/cpe 133/modules/rca_nb_v1_04.v} {D:/schoolfiles/School/cpe 133/modules/mux_2t1_nb_v1_04.v}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+import_files -norecurse {{D:/schoolfiles/School/cpe 133/modules/clk_2n_div_test_v1_01.v}}
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+add_files -fileset constrs_1 -norecurse {{D:/schoolfiles/School/cpe 133/Basys3_Master_v1_03.xdc}}
+import_files -fileset constrs_1 {{D:/schoolfiles/School/cpe 133/Basys3_Master_v1_03.xdc}}
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run impl_1 -prev_step 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {D:/schoolfiles/School/cpe 133/exp12/fibonacci_seq_gen/fibonacci_seq_gen.runs/impl_1/main.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/schoolfiles/School/cpe 133/exp12/fibonacci_seq_gen/fibonacci_seq_gen.runs/impl_1/main.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/schoolfiles/School/cpe 133/exp12/fibonacci_seq_gen/fibonacci_seq_gen.runs/impl_1/main.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/schoolfiles/School/cpe 133/exp12/fibonacci_seq_gen/fibonacci_seq_gen.runs/impl_1/main.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/schoolfiles/School/cpe 133/exp12/fibonacci_seq_gen/fibonacci_seq_gen.runs/impl_1/main.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+update_compile_order -fileset sources_1
+reset_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/schoolfiles/School/cpe 133/exp12/fibonacci_seq_gen/fibonacci_seq_gen.runs/impl_1/main.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/schoolfiles/School/cpe 133/exp12/fibonacci_seq_gen/fibonacci_seq_gen.runs/impl_1/main.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/schoolfiles/School/cpe 133/exp12/fibonacci_seq_gen/fibonacci_seq_gen.runs/impl_1/main.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+export_ip_user_files -of_objects  [get_files {{D:/schoolfiles/School/cpe 133/exp12/fibonacci_seq_gen/fibonacci_seq_gen.srcs/sources_1/imports/modules/comp_nb_v1_02.v}}] -no_script -reset -force -quiet
+remove_files  {{D:/schoolfiles/School/cpe 133/exp12/fibonacci_seq_gen/fibonacci_seq_gen.srcs/sources_1/imports/modules/comp_nb_v1_02.v}}
+file delete -force {D:/schoolfiles/School/cpe 133/exp12/fibonacci_seq_gen/fibonacci_seq_gen.srcs/sources_1/imports/modules/comp_nb_v1_02.v}
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/schoolfiles/School/cpe 133/exp12/fibonacci_seq_gen/fibonacci_seq_gen.runs/impl_1/main.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/schoolfiles/School/cpe 133/exp12/fibonacci_seq_gen/fibonacci_seq_gen.runs/impl_1/main.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close [ open {D:/schoolfiles/School/cpe 133/exp12/fibonacci_seq_gen/fibonacci_seq_gen.srcs/sources_1/new/10b_to_3d.v} w ]
+add_files {{D:/schoolfiles/School/cpe 133/exp12/fibonacci_seq_gen/fibonacci_seq_gen.srcs/sources_1/new/10b_to_3d.v}}
+close [ open {D:/schoolfiles/School/cpe 133/exp12/fibonacci_seq_gen/fibonacci_seq_gen.srcs/sources_1/new/sseg_driver.v} w ]
+add_files {{D:/schoolfiles/School/cpe 133/exp12/fibonacci_seq_gen/fibonacci_seq_gen.srcs/sources_1/new/sseg_driver.v}}
+update_compile_order -fileset sources_1
+import_files -norecurse {{D:/schoolfiles/School/cpe 133/modules/cntr_up_clr_nb_v1_03.v}}
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/schoolfiles/School/cpe 133/exp12/fibonacci_seq_gen/fibonacci_seq_gen.runs/impl_1/main.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+file mkdir D:/schoolfiles/School/cpe 133/exp12/fibonacci_seq_gen/fibonacci_seq_gen.srcs/sim_1/new
+file mkdir D:/schoolfiles/School/cpe 133/exp12/fibonacci_seq_gen/fibonacci_seq_gen.srcs/sim_1/new
+file mkdir D:/schoolfiles/School/cpe 133/exp12/fibonacci_seq_gen/fibonacci_seq_gen.srcs/sim_1/new
+file mkdir D:/schoolfiles/School/cpe 133/exp12/fibonacci_seq_gen/fibonacci_seq_gen.srcs/sim_1/new
+file mkdir D:/schoolfiles/School/cpe 133/exp12/fibonacci_seq_gen/fibonacci_seq_gen.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+file mkdir D:/schoolfiles/School/cpe 133/exp12/fibonacci_seq_gen/fibonacci_seq_gen.srcs/sim_1/new
+file mkdir {D:/schoolfiles/School/cpe 133/exp12/fibonacci_seq_gen/fibonacci_seq_gen.srcs/sim_1/new}
+close [ open {D:/schoolfiles/School/cpe 133/exp12/fibonacci_seq_gen/fibonacci_seq_gen.srcs/sim_1/new/test_fibseq.v} w ]
+add_files -fileset sim_1 {{D:/schoolfiles/School/cpe 133/exp12/fibonacci_seq_gen/fibonacci_seq_gen.srcs/sim_1/new/test_fibseq.v}}
+update_compile_order -fileset sim_1
+close_hw_manager
+launch_simulation
+source main.tcl
+close_sim
+launch_simulation
+source main.tcl
+relaunch_sim
+close_sim
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/schoolfiles/School/cpe 133/exp12/fibonacci_seq_gen/fibonacci_seq_gen.runs/impl_1/main.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/schoolfiles/School/cpe 133/exp12/fibonacci_seq_gen/fibonacci_seq_gen.runs/impl_1/main.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/schoolfiles/School/cpe 133/exp12/fibonacci_seq_gen/fibonacci_seq_gen.runs/impl_1/main.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/schoolfiles/School/cpe 133/exp12/fibonacci_seq_gen/fibonacci_seq_gen.runs/impl_1/main.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/schoolfiles/School/cpe 133/exp12/fibonacci_seq_gen/fibonacci_seq_gen.runs/impl_1/main.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/schoolfiles/School/cpe 133/exp12/fibonacci_seq_gen/fibonacci_seq_gen.runs/impl_1/main.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/schoolfiles/School/cpe 133/exp12/fibonacci_seq_gen/fibonacci_seq_gen.runs/impl_1/main.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/schoolfiles/School/cpe 133/exp12/fibonacci_seq_gen/fibonacci_seq_gen.runs/impl_1/main.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/schoolfiles/School/cpe 133/exp12/fibonacci_seq_gen/fibonacci_seq_gen.runs/impl_1/main.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/schoolfiles/School/cpe 133/exp12/fibonacci_seq_gen/fibonacci_seq_gen.runs/impl_1/main.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+import_files -norecurse {{D:/schoolfiles/School/cpe 133/modules/rc_sign_changer_v1_01.v}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/schoolfiles/School/cpe 133/exp12/fibonacci_seq_gen/fibonacci_seq_gen.runs/impl_1/main.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/schoolfiles/School/cpe 133/exp12/fibonacci_seq_gen/fibonacci_seq_gen.runs/impl_1/main.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/schoolfiles/School/cpe 133/exp12/fibonacci_seq_gen/fibonacci_seq_gen.runs/impl_1/main.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/schoolfiles/School/cpe 133/exp12/fibonacci_seq_gen/fibonacci_seq_gen.runs/impl_1/main.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]

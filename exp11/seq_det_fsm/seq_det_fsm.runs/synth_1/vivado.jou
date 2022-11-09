@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Tue Nov  8 12:56:26 2022
+# Process ID: 37688
+# Current directory: D:/schoolfiles/School/cpe 133/exp11/seq_det_fsm/seq_det_fsm.runs/synth_1
+# Command line: vivado.exe -log seq_detect_driver.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source seq_detect_driver.tcl
+# Log file: D:/schoolfiles/School/cpe 133/exp11/seq_det_fsm/seq_det_fsm.runs/synth_1/seq_detect_driver.vds
+# Journal file: D:/schoolfiles/School/cpe 133/exp11/seq_det_fsm/seq_det_fsm.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source seq_detect_driver.tcl -notrace
