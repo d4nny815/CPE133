@@ -1,2 +1,0 @@
-# CPE133
-Cal Poly CPE 133

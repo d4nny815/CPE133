@@ -1,9 +1,0 @@
-0.7
-2020.1
-May 27 2020
-20:09:33
-D:/schoolfiles/School/cpe 133/exp5/8bit_Comparator/8bit_Comparator.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
-D:/schoolfiles/School/cpe 133/exp5/8bit_Comparator/8bit_Comparator.srcs/sim_1/new/test_8b_comp.v,1666502998,verilog,,,,test_8b_comp,,,,,,,,
-D:/schoolfiles/School/cpe 133/exp5/8bit_Comparator/8bit_Comparator.srcs/sources_1/imports/Downloads/comp_nb_v1_02.v,1665386770,verilog,,D:/schoolfiles/School/cpe 133/exp5/8bit_Comparator/8bit_Comparator.srcs/sim_1/new/test_8b_comp.v,,comp_nb,,,,,,,,
-D:/schoolfiles/School/cpe 133/exp5/8bit_Comparator/8bit_Comparator.srcs/sources_1/new/8_bit_comp.v,1666510168,verilog,,D:/schoolfiles/School/cpe 133/exp5/8bit_Comparator/8bit_Comparator.srcs/sources_1/imports/Downloads/comp_nb_v1_02.v,,eight_bit_comp,,,,,,,,
-D:/schoolfiles/School/cpe 133/exp5/8bit_Comparator/8bit_Comparator.srcs/sources_1/new/n_bit_comp.v,1665383566,verilog,,D:/schoolfiles/School/cpe 133/exp5/8bit_Comparator/8bit_Comparator.srcs/sim_1/new/test_8b_comp.v,,n_bit_comp_unsigned,,,,,,,,
