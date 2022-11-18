@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Oct 26 14:26:54 2022
+# Process ID: 16244
+# Current directory: D:/schoolfiles/School/cpe 133/exp7/signed_5b_adder/signed_5b_adder.runs/synth_1
+# Command line: vivado.exe -log signed_5b_adder_t_sseg.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source signed_5b_adder_t_sseg.tcl
+# Log file: D:/schoolfiles/School/cpe 133/exp7/signed_5b_adder/signed_5b_adder.runs/synth_1/signed_5b_adder_t_sseg.vds
+# Journal file: D:/schoolfiles/School/cpe 133/exp7/signed_5b_adder/signed_5b_adder.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source signed_5b_adder_t_sseg.tcl -notrace

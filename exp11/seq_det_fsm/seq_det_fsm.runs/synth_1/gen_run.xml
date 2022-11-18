@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1668758702">
+  <File Type="PA-TCL" Name="seq_detect_driver.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="seq_detect_driver_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="seq_detect_driver_reports.tcl"/>
+  <File Type="RDS-RDS" Name="seq_detect_driver.vds"/>
+  <File Type="RDS-UTIL" Name="seq_detect_driver_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="seq_detect_driver_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="seq_detect_driver.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="seq_detect_driver_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="seq_detect_driver_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/modules/FSM_Template v1_00.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../modules/FSM_Template v1_00.v"/>
+        <Attr Name="ImportTime" Val="1667893518"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/modules/clk_2n_div_test_v1_01.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../modules/clk_2n_div_test_v1_01.v"/>
+        <Attr Name="ImportTime" Val="1666656344"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/modules/cntr_up_clr_nb_v1_03.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../modules/cntr_up_clr_nb_v1_03.v"/>
+        <Attr Name="ImportTime" Val="1667894468"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/modules/mux_2t1_nb_v1_04.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../modules/mux_2t1_nb_v1_04.v"/>
+        <Attr Name="ImportTime" Val="1666341940"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/modules/mux_8t1_nb_v1_03.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../modules/mux_8t1_nb_v1_03.v"/>
+        <Attr Name="ImportTime" Val="1667894468"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/modules/stand_dcdr_2t4_1cold_v1_02.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../modules/stand_dcdr_2t4_1cold_v1_02.v"/>
+        <Attr Name="ImportTime" Val="1667894502"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/modules/seq_detect_driver_v1_09.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../modules/seq_detect_driver_v1_09.v"/>
+        <Attr Name="ImportTime" Val="1667893322"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="seq_detect_driver"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/cpe 133/modules/seg_detect_exp_v1_00.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../modules/seg_detect_exp_v1_00.xdc"/>
+        <Attr Name="ImportTime" Val="1667893324"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

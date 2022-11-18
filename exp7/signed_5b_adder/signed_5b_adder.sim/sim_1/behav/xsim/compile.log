@@ -1,0 +1,12 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/schoolfiles/School/cpe 133/exp7/signed_5b_adder/signed_5b_adder.srcs/sources_1/imports/Downloads/mux_2t1_nb_v1_04.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_2t1_nb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/schoolfiles/School/cpe 133/exp7/signed_5b_adder/signed_5b_adder.srcs/sources_1/imports/Downloads/rc_sign_changer_v1_01.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module nb_twos_comp
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/schoolfiles/School/cpe 133/exp7/signed_5b_adder/signed_5b_adder.srcs/sources_1/imports/Downloads/rc_valid_chk_v1_00.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rc_valid_chk
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/schoolfiles/School/cpe 133/exp7/signed_5b_adder/signed_5b_adder.srcs/sources_1/imports/Downloads/rca_nb_v1_04.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rca_nb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/schoolfiles/School/cpe 133/exp7/signed_5b_adder/signed_5b_adder.srcs/sources_1/new/signed_5b_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signed_5b_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/schoolfiles/School/cpe 133/exp7/signed_5b_adder/signed_5b_adder.srcs/sim_1/new/test_signed_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_signed_adder
