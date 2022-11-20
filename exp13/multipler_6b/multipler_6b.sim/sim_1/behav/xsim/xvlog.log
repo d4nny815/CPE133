@@ -1,0 +1,18 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/schoolfiles/School/cpe 133/exp13/multipler_6b/multipler_6b.srcs/sources_1/imports/modules/FSM_Template v1_00.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fsm_template
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/schoolfiles/School/cpe 133/exp13/multipler_6b/multipler_6b.srcs/sources_1/imports/modules/cntr_up_clr_nb_v1_03.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cntr_up_clr_nb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/schoolfiles/School/cpe 133/exp13/multipler_6b/multipler_6b.srcs/sources_1/new/mult_6b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mult_6b
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/schoolfiles/School/cpe 133/exp13/multipler_6b/multipler_6b.srcs/sources_1/new/multipler.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multipler
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/schoolfiles/School/cpe 133/exp13/multipler_6b/multipler_6b.srcs/sources_1/imports/modules/mux_2t1_nb_v1_04.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_2t1_nb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/schoolfiles/School/cpe 133/exp13/multipler_6b/multipler_6b.srcs/sources_1/imports/modules/rca_nb_v1_04.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rca_nb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/schoolfiles/School/cpe 133/exp13/multipler_6b/multipler_6b.srcs/sources_1/imports/modules/reg_nb_v1_03.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg_nb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/schoolfiles/School/cpe 133/exp13/multipler_6b/multipler_6b.srcs/sources_1/imports/modules/usr_nb_v1_01.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module usr_nb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/schoolfiles/School/cpe 133/exp13/multipler_6b/multipler_6b.srcs/sim_1/new/test_multipler.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_multipler

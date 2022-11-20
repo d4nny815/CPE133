@@ -27,7 +27,7 @@ module fsm_template(
     //- next state & present state variables
     reg [1:0] NS, PS; 
     //- bit-level state representations
-    parameter [1:0] st_A=2'b00, st_B=2'b01, st_C=2'b11; 
+    parameter [1:0] st_HOLD=2'b00, st_CTN_UP=2'b01, st_CTN_DOWN=2'b11; 
     
 
     //- model the state registers
@@ -39,44 +39,43 @@ module fsm_template(
     begin
        led =0; clr = 0; start0 = 0; start1 = 0; disp = 0; //moore = 0; // assign all outputs
        case(PS)
-          st_A:
+          st_HOLD:
           begin
             led =0; clr = 1; start0 = 0; start1 = 0; disp = 0;      
              if (btn == 1)
              begin
                 clr = 0;   
                 start0 = 1;
-                NS = st_B; 
+                NS = st_CTN_UP; 
              end  
              else
-                NS = st_A;   
+                NS = st_HOLD;   
           end
           
-          st_B:
+          st_CTN_UP:
           begin
             led =1;   
             if (up_rco == 1)
              begin   
                 start1 = 1;
-                NS = st_C; 
+                NS = st_CTN_DOWN; 
              end  
              else
-                NS = st_B;   
+                NS = st_CTN_UP;   
           end  
              
-          st_C:
+          st_CTN_DOWN:
           begin
             led =1; disp = 1;
              if (down_rco == 1) 
-                NS = st_A;   
+                NS = st_HOLD;   
              else
-                NS = st_C;   
+                NS = st_CTN_DOWN;   
           end  
              
-          default: NS = st_A;        
+          default: NS = st_HOLD;        
           endcase
       end
-            
 endmodule
 
 

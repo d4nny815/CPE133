@@ -53,6 +53,4 @@ module fib_gen_ckt(
        .D0    (reg0_up), 
        .D1    (val_fib_down), 
        .D_OUT (val) );
-       
-        
 endmodule

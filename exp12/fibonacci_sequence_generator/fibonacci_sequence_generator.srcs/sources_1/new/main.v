@@ -45,6 +45,4 @@ module main(
         .fclk_only (0),          
         .clockout  (slow_clk)   
     );
-    
-
 endmodule
