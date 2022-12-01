@@ -1,0 +1,16 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/schoolfiles/School/cpe 133/exp12/fib_gen/fib_gen.sim/sim_1/synth/func/xsim/test_fib_gen_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_2n_div_test
+INFO: [VRFC 10-311] analyzing module clk_divder
+INFO: [VRFC 10-311] analyzing module cnt_convert_14b
+INFO: [VRFC 10-311] analyzing module fib_gen_ckt
+INFO: [VRFC 10-311] analyzing module fib_seq
+INFO: [VRFC 10-311] analyzing module fsm_template
+INFO: [VRFC 10-311] analyzing module main
+INFO: [VRFC 10-311] analyzing module output_module
+INFO: [VRFC 10-311] analyzing module rca_nb
+INFO: [VRFC 10-311] analyzing module reg_nb
+INFO: [VRFC 10-311] analyzing module reg_nb_0
+INFO: [VRFC 10-311] analyzing module univ_sseg
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/schoolfiles/School/cpe 133/exp12/fib_gen/fib_gen.srcs/sim_1/new/test_fibseq.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_fib_gen

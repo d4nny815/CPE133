@@ -1,0 +1,6 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+D:/schoolfiles/School/cpe 133/exp12/fib_gen/fib_gen.sim/sim_1/synth/func/xsim/test_fib_gen_func_synth.v,1669871128,verilog,,D:/schoolfiles/School/cpe 133/exp12/fib_gen/fib_gen.srcs/sim_1/new/test_fibseq.v,,clk_2n_div_test;clk_divder;cnt_convert_14b;fib_gen_ckt;fib_seq;fsm_template;glbl;main;output_module;rca_nb;reg_nb;reg_nb_0;univ_sseg,,,,,,,,
+D:/schoolfiles/School/cpe 133/exp12/fib_gen/fib_gen.srcs/sim_1/new/test_fibseq.v,1669842116,verilog,,,,test_fib_gen,,,,,,,,

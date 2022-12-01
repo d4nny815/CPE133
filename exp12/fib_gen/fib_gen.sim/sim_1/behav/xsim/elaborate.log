@@ -1,0 +1,29 @@
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto c64f3e04d77f40c3af00749198d490ef --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_fib_gen_behav xil_defaultlib.test_fib_gen xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.fsm_template
+Compiling module xil_defaultlib.reg_nb(n=11)
+Compiling module xil_defaultlib.rca_nb(n=11)
+Compiling module xil_defaultlib.mux_4t1_nb(n=11)
+Compiling module xil_defaultlib.nb_twos_comp(n=11)
+Compiling module xil_defaultlib.mux_2t1_nb(n=11)
+Compiling module xil_defaultlib.comp_nb(n=11)
+Compiling module xil_defaultlib.fib_seq
+Compiling module xil_defaultlib.fib_gen_ckt
+Compiling module xil_defaultlib.cnt_convert_14b
+Compiling module xil_defaultlib.cnt_convert_7b
+Compiling module xil_defaultlib.clk_divder
+Compiling module xil_defaultlib.univ_sseg
+Compiling module xil_defaultlib.output_module
+Compiling module xil_defaultlib.clk_2n_div_test(n=25)
+Compiling module xil_defaultlib.main
+Compiling module xil_defaultlib.test_fib_gen
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_fib_gen_behav

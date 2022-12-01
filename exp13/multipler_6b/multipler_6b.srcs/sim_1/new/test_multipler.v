@@ -30,7 +30,7 @@ module test_multipler();
     
     mult_6b my_mult_test(
         .sw({a, b}), .btnL(btn), .clk(clk),
-        .result(result), .led(led)
+        .result(result)
     );
     
     always 

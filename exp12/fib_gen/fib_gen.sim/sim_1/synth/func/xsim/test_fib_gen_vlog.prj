@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"test_fib_gen_func_synth.v" \
+"../../../../../fib_gen.srcs/sim_1/new/test_fibseq.v" \
+
+# Do not sort compile order
+nosort
